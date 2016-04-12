@@ -21,9 +21,9 @@ class ExplicitIntrinsicContentSizeView: UIView {
     }
 
     func tap() {
-        UIView.animateWithDuration(0.6, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: .AllowUserInteraction, animations: {
+        UIView.animateWithDuration(2) {
             self.hidden = true
-        }, completion: nil)
+        }
     }
 
     required init(coder aDecoder: NSCoder) {

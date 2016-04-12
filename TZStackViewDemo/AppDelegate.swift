@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         //Launch the application
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.rootViewController = ViewController()
+        window?.rootViewController = ViewController2()
         window?.makeKeyAndVisible()
         return true
     }
